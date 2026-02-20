@@ -1,0 +1,119 @@
+body {
+    background-color: #FDE6DB;
+    background-image: url("images/wood-fade-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.content-box {
+    background-color: azure;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* ---------- FORM STYLING ---------- */
+
+form {
+    max-width: 500px;
+    margin: 20px auto 0;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    font-size: 14px;
+}
